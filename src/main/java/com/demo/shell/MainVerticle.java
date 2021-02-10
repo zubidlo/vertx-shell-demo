@@ -1,4 +1,4 @@
-package com.example.shell;
+package com.demo.shell;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;

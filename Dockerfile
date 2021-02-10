@@ -1,6 +1,6 @@
 FROM vertx/vertx4-exec
-ENV VERTICLE_NAME com.example.shell.MainVerticle
-ENV VERTICLE_FILE target/shell-1.0.0-SNAPSHOT.jar
+ENV VERTICLE_NAME com.demo.shell.MainVerticle
+ENV VERTICLE_FILE target/shell-1.0.0-SNAPSHOT-fat.jar
 # Set the location of the verticles
 ENV VERTICLE_HOME /usr/verticles
 EXPOSE 8888
